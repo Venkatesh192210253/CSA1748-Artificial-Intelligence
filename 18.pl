@@ -6,3 +6,7 @@ person(sarah, date(2000, 3, 19)).
 
 % Querying someone's DOB by name
 dob(Name, Y, M, D) :- person(Name, date(Y, M, D)).
+
+
+input:-  person(Name, date(1992,12,2))
+          dob(john, Y,M,D).
