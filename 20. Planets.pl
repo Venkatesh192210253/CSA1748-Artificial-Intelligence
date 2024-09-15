@@ -8,3 +8,6 @@ planet(uranus, 2871.0, 19.22).
 planet(neptune, 4497.0, 30.05).
 find_planet(Name,Distance,Op):-
 	planet(Name,Distance,Op).
+
+
+find_planet(Mercury,Distance,Op).
