@@ -4,3 +4,6 @@ find_student(Student,Teacher,Subject,Code):-
 	student(Student,Teacher,Subject,Code).
 find_teacher(Student,Teacher,Subject,Code):-
 	student(Student,Teacher,Subject,Code).
+
+
+input:-  find_student('venky',Teacher,Subject,Code).
